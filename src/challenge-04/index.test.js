@@ -11,7 +11,7 @@ describe('Day 4 challenge', () => {
         '__#__',
         '__#__'
       ].join('\n')
-    );
+    )
   })
 
   test('is a xmas tree with height of 5', () => {
