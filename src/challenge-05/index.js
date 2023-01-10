@@ -1,8 +1,7 @@
 function daysToXmas(date) {
-  const christmasDate = new Date("Dec 25, 2021")
-  const secondsTillChristmas = christmasDate.getTime()/1000 - date.getTime()/1000
-  const daysTillChristmas = secondsTillChristmas/60/60/24
-  return Math.ceil(daysTillChristmas)
+  const XMAS_DATE = new Date('Dec 25, 2021')
+  const MS_IN_A_DAY = 1000 * 3600 * 24
+  return Math.ceil((XMAS_DATE - date) / MS_IN_A_DAY)
 }
 
 module.exports = daysToXmas
