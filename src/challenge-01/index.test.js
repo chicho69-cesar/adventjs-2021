@@ -1,4 +1,4 @@
-const countSheeps = require('./index.js')
+const countSheeps = require('./index.js');
 
 describe('Day 1 challenge', () => {
   test('filters sheeps by their color & name', () => {
