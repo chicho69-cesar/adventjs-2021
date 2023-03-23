@@ -24,5 +24,5 @@ Ejemplos:
 "(peluche {) bici" // -> ❌
 "() bici" // ❌
 ```
-      
+
 Crea una función que pasándole el texto de la carta, devuelva `true` si es válida y `false` si no lo es. ¡Y acaba con la travesura del Grinch!

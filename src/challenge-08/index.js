@@ -11,7 +11,7 @@ function maxProfit(prices) {
     }
   }
 
-  return max !== -1 ? (venta - compra) : -1;
+  return max !== -1 ? (venta - compra) : -1
 }
 
 function maxProfitAlt1(prices) {
